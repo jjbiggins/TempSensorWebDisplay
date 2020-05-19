@@ -62,3 +62,12 @@ A transparent box to enclose all the components
 A laptop to connect to the internet 
 
 
+
+4-pin tactile switch:
+
+
+ 
+6-pin switch: 
+
+
+
