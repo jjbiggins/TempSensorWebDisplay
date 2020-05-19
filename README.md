@@ -87,3 +87,15 @@ Arduino Uno:
 
 
 DS18b20 temperature sensor:
+![DS18b20 temperature sensor:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page9image55313840.png)
+
+
+
+
+
+
+
+
+
+We purchased two boxes for this project, we eventually decided to use the smaller transparent box as it kept all the circuitry more intact. We drilled 4 holes in the box, two holes for the buttons, one hole for the USB connection from the laptop to the arduino and the last hole was for the 2 meter long temperature sensor. The 10-LED segment display was connected to 7 220 ohm resistors to prevent the LEDs from drawing in too much current and burning. The 4-pin tactile button was connected to ground and pin 3 on the arduino as shown in the figure below. When the button is pressed, the LEDs light up. The right side of the 6-pin switch was connected the to power/ground pins from the arduino, specifically 3.3V, 5V and ground as shown below. The other side of the switch was connected the the three rails, that way when the switch is connected, power from the arduino goes through to the board. The temperature sensor was pretty straight forward to connected, reading the pins on the datasheet and connecting the suitable resistor to the output pin as well as connected the output pin to the arduino was all what was needed to be done.
+Last but not least, we connected an LED (with a resistor) in the circuit to alert any errors in the circuit.
