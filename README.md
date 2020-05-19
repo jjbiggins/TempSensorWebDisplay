@@ -70,3 +70,8 @@ A laptop to connect to the internet
  
  
 ![6-pin switch:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/iLLe%20%2B%20B33300333.jpg) 
+
+Arduino Uno:
+
+
+![Arduino Uno:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55312384.png)
