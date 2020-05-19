@@ -75,3 +75,4 @@ Arduino Uno:
 
 
 ![Arduino Uno:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55312384.png)
+https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55313008.png
