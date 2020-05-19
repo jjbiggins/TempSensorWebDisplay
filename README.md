@@ -61,10 +61,12 @@ An LED to indicate errors
 A transparent box to enclose all the components 
 A laptop to connect to the internet 
 
-
+4-pin tactile switch:
 
 ![4-pin tactile switch:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page7image55198320.jpg)
 
 
+ 6-pin tactile switch:
+ 
  
 ![6-pin switch:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/iLLe%20%2B%20B33300333.jpg) 
