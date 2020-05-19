@@ -76,3 +76,9 @@ Arduino Uno:
 
 ![Arduino Uno:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55312384.png)
 ![Arduino Uno:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55313008.png)
+
+
+
+
+
+![10-segment LED display:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55312800.jpg)
