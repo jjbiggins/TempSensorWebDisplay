@@ -68,6 +68,6 @@ A laptop to connect to the internet
 
  
 6-pin switch: 
-
+![6-pin switch:](https://github.com/jjbiggins/TempSensorWebDisplay/blob/master/page8image55312384.png)
 
 
