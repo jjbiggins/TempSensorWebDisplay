@@ -79,6 +79,7 @@ Arduino Uno:
 
 
 
+10-segment LED display:
 
-
+![10-segment LED display:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/TITTTTT.jpg)
 ![10-segment LED display:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page8image55312800.jpg)
