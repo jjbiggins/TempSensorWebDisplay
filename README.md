@@ -63,7 +63,7 @@ A laptop to connect to the internet
 
 
 
-4-pin tactile switch:
+[4-pin tactile switch:](https://raw.githubusercontent.com/jjbiggins/TempSensorWebDisplay/master/page7image55198320.jpg)
 
 
  
