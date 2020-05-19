@@ -1,0 +1,65 @@
+extends layout
+
+block content
+    h1= title
+    p
+        div#tempInput
+        br
+        table
+            td
+                tr
+                    p#currentTemp= "Not connected"
+            td
+                tr
+                    td
+                        p= "Enter minimum temperature: "
+                    td
+                        input#minTemp(type="text", style="width: 100px", enabled="true")
+                tr
+                    td
+                        p= "Enter maximum temperature: "
+                    td
+                        input#maxTemp(type="text", style="width: 100px", enabled="true")
+                tr
+                    td
+                        p= "Enter a phone number: "
+                    td
+                        input#phoneNumber(type="text", style="width: 150px", enabled="true")
+                        input#button(type="button", value="Send", onclick="clickFunction()")
+
+            .degreeSwitch
+                input#mydegreeSwitch.degreeSwitch-checkbox(type='checkbox', name='degreeSwitch', checked='')
+                label.degreeSwitch-label(for='mydegreeSwitch')
+                    span.degreeSwitch-inner
+                    span.degreeSwitch-switch
+
+
+    script(src='https://www.gstatic.com/firebasejs/5.5.0/firebase.js')
+        script.
+        // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyBNmQQ9osfVp2JR7JdkbXfOoqZs9iT0kMM",
+                authDomain: "seniordesignlab1-e09d1.firebaseapp.com",
+                databaseURL: "https://seniordesignlab1-e09d1.firebaseio.com",
+                projectId: "seniordesignlab1-e09d1",
+                storageBucket: "",
+                messagingSenderId: "373917785489"
+            };
+            firebase.initializeApp(config);
+    script(src="/socket.io/socket.io.js")
+    script.
+        var socket = io.connect("http://localhost:3000")
+        socket.on('connection', function (data) {
+        });
+        socket.on('updatedTemp', function (temp) {
+            document.getElementById("currentTemp").innerHTML = temp + " C";
+        });
+        function clickFunction(){
+            alert(document.getElementById("minTemp").value);
+            socket.emit('sendInfo', { minTemp: document.getElementById("minTemp").value, maxTemp: document.getElementById("maxTemp").value, phoneNumber: document.getElementById("phoneNumber").value});
+        };
+
+
+
+block graph
+    iframe(frameborder='0', seamless='seamless', height=500, width=600, scrolling='yes', src='https://plot.ly/~dhausken/0.embed?height=500')

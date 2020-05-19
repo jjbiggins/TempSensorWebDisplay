@@ -1,0 +1,30 @@
+{
+  "name": "samplenodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "firebase": "^5.5.1",
+    "firebase-admin": "^6.0.0",
+    "fusioncharts": "^3.13.1-sr.2",
+    "http-errors": "~1.6.2",
+    "jade": "^1.11.0",
+    "johnny-five": "^1.0.0",
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "plotly": "^1.0.6",
+    "request": "^2.88.0",
+    "serialport": "^7.0.2",
+    "socket.io": "^2.1.1",
+    "twilio": "^3.19.2",
+    "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}

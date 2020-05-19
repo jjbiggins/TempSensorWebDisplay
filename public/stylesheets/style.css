@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  text-align: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+  text-align: center;
+  padding: 0px;
+  border-spacing: 0px;
+}
+
+tr {
+  line-height: 8px;
+}
+
+p {
+  text-align: center;
+}
+
+.degreeSwitch {
+  position: relative; width: 90px;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.degreeSwitch-checkbox {
+  display: none;
+}
+.degreeSwitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #999999; border-radius: 20px;
+}
+.degreeSwitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.degreeSwitch-inner:before, .degreeSwitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+.degreeSwitch-inner:before {
+  content: "\2103";
+  padding-left: 10px;
+  background-color: #34A7C1; color: #FFFFFF;
+}
+.degreeSwitch-inner:after {
+  content: "\2109";
+  padding-right: 10px;
+  background-color: #EEEEEE; color: #999999;
+  text-align: right;
+}
+.degreeSwitch-switch {
+  display: block; width: 18px; margin: 6px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 56px;
+  border: 2px solid #999999; border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.degreeSwitch-checkbox:checked + .degreeSwitch-label .degreeSwitch-inner {
+  margin-left: 0;
+}
+.degreeSwitch-checkbox:checked + .degreeSwitch-label .degreeSwitch-switch {
+  right: 0px;
+}
